@@ -176,7 +176,7 @@ public class CourseService {
 
     }
 
-    private static final String basePath = "C:/Users/2441337/angular/ELP/uploads";
+    private static final String basePath = "C:/Users/2440857/Downloads/uploads";
 
     private String saveFile(MultipartFile file, String subFolder) throws IOException {
         if(file == null || file.isEmpty()) return null;
